@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <link rel="icon" href="images/favicon-96x96.png" type="image/.png"/>
+        <meta charset="UTF-8" />
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta http-equiv="content-style-type" content="text/css" />  
+        <meta http-equiv="imagetoolbar" content="no" /> 
+        <meta name="resource-type" content="document" /> 
+        <meta name="distribution" content="global" /> 
+        <meta name="copyright" content="SAMAHUA" />
+        <meta name="author" content="Paúl Noé de los Santos Hernández, paulnoe99@gmail.com" />
+        <meta name="rating" content="General" />
+        <meta name="description" content="index del proyecto web" />
+        <meta name="abstract" content="" />
+        <meta name="keywords" content="huzolotitlan, sta maria huazolotitlan,artesanias,ropa tipica, artesanias, cultura" />
+        <meta name="doc-rights" content="Copywritten work" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo2.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo3.css">
+        <link rel="stylesheet" type="text/css" href="css/ubicacion.css">
+        <link rel="stylesheet" type="text/css" href="css/calificaciones.css">
+        <title>Aprobación del Sitio Web</title>
+        
+          <script type="text/javascript">
+            function promedioCalif(){
+                suma = 0;
+                total = 0;
+                
+                for(i=0; i<=document.calificaciones.elements.length; i++){
+                    ele = document.calificaciones.elements[i];
+
+                    if(ele.type=='text' && !isNaN(parseFloat(ele.value))){
+                        suma += 1;
+                        total += parseFloat(ele.value);
+                    }
+                    if(suma != 0){
+                        prom=total/suma;
+                        document.calificaciones.informe.value=prom;
+                    }else{
+                        document.calificaciones.informe.value=0;
+                    }
+                }
+            }
+        </script>
+
+    </head>
+   <body>
+    <header>
+      <h1> Santa María Huazolotitlán</h1>
+     <h2>Lugar de Guajolotes</h2>
+    </header>
+    <div class="logo"></div>
+     <!--Inicio de menu-->
+    <div id="menu">
+      <ul>
+        <li class="nivel1"><a href="index.html" class="nivel1">Inicio</a>
+      
+        <li class="nivel1"><a href="historia.html" class="nivel1">Historia</a>
+      
+        <ul>
+          <li><a href="#">Reseña Historica</a></li>
+          <li><a href="#">Personajes Ilustres</a></li>
+          <li><a href="#">Hechos Historicos</a></li>
+        </ul>
+       </li>
+      
+        <li class="nivel1"><a href="acteconomica.html" class="nivel1">Act. Económica</a>
+        <ul>
+          <li><a href="#">Ganaderia</a></li>
+          <li><a href="#">Agricultura</a></li>
+          <li><a href="#">Apicultura</a></li>
+        </ul>
+       </li>
+      
+        <li class="nivel1"><a href="cultura.html" class="nivel1">Cultura</a>
+        <ul>
+          <li><a href="#">Música</a></li>
+          <li><a href="#">Artesanias</a></li>
+          <li><a href="#">Gastronomia</a></li>
+          <li><a href="#">Danzas</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+       </li>
+       
+
+        <li class="nivel1"><a href="ecosistema.html" class="nivel1">Ecosistema</a>
+          <ul>
+            <li><a href="#">Flora</a></li>
+            <li><a href="#">Fauna</a></li>
+          </ul>
+        </li>
+
+        <li class="nivel1"><a href="contactos.html" class="nivel1">Contactos</a>
+          <ul>
+            <li><a href="ubicación.html">Ubicación</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="testimonio.html">Testimonios</a></li>
+            <li><a href="calificacion.html">Aprobación del Sitio Web</a></li>
+          </ul>
+        </li>
+         
+      </ul>
+      </div>
+      <!--fin de menú-->
+      <div class="contenedor" ></div>
+      <div class="contact_form">
+          <div class="formulario">   
+            <h1>Calculando Aprobación del Sitio Web</h1>
+            <h3>Inserta una calificación de aprabación de esté sitio web.</h3>
+      <form name="calificaciones" method="post" action="">
+          Diseño<input type="text" name="nota1" size="4" maxlength="5" placeholder="Escribe un promedio de aprobacion del 1 al 10"><br>
+          Creatividad <input type="text" name="nota2" size="4" maxlength="5"  placeholder="Escribe un promedio de aprobacion del 1 al 10"><br>
+          Contenido<input type="text" name="nota3" size="4" maxlength="5"  placeholder="Escribe un promedio de aprobacion del 1 al 10"><br>
+          
+          Promedio de Aprobación<input type="text" name="informe" size="4" maxlength="5" placeholder="Resultado"><br><br>
+
+          <input class="button" type="button" name="Submit" value="Calcular Promedio" onclick="promedioCalif()"></br>
+          <input class="button" type="reset"  value="Limpiar"></br>
+      </form>
+         </div>
+    </div>
+    
+  <footer>
+    <a href="#">Derechos Reservados 2021 - Santa María Huazolotitlán</a>
+  </footer>
+   </body>
+</html>

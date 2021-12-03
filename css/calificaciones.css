@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+body{
+    height: 100%; 
+    font-family: cursive;
+    background-color:#FFFFFF; 
+  }
+.contenedor{
+    padding-top: 10px;
+}
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #D2B4DE; 
+  padding-left: 30px; 
+}
+h1{
+    font-size: 28px;  
+    text-align: letf; 
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 20px; 
+    color:#4A235A;
+}
+h3{
+    font-size: 16px; 
+    font-family:sans-serif;
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+input[type="text"]{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+.button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }

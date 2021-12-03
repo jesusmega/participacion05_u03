@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="icon" href="images/favicon-96x96.png" type="image/.png"/>
+        <meta charset="UTF-8" />
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta http-equiv="content-style-type" content="text/css" />  
+        <meta http-equiv="imagetoolbar" content="no" /> 
+        <meta name="resource-type" content="document" /> 
+        <meta name="distribution" content="global" /> 
+        <meta name="copyright" content="SAMAHUA" />
+        <meta name="author" content="Paúl Noé de los Santos Hernández,paulnoe99@gmail.com, Jesús Merino García,l18730180@pinotepa.tecnm.mx" />
+        <meta name="rating" content="General" />
+        <meta name="description" content="index del proyecto web" />
+        <meta name="abstract" content="" />
+        <meta name="keywords" content="huzolotitlan, sta maria huazolotitlan,artesanias,ropa tipica, artesanias, cultura" />
+        <meta name="doc-rights" content="Copywritten work" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo2.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo3.css">
+
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/index.js"></script>
+        <script src="js/saludo.js"></script>
+
+
+        <title>Inicio</title>
+        <style type="text/css">
+          *{
+              --bg: white;
+              --shadowLg: white;
+              --shadow: rgba(13,39,80,.26);
+          }
+          aside {
+              min-height: 100vh;
+              background: var(--bg);
+              overflow: hidden;
+              width: 25%;
+          }
+          aside h1{
+            font-size:50px;
+            font-family: Tahoma;
+            text-align: center;
+          }
+          article {
+ 	          margin: 1.4em 1.4em ;
+	          padding: 0.8em 0.6em;
+	          background-color: white;
+	          float: left;
+          }
+          article p {
+	          text-align: justify;
+	          font-size: 20px;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            font-family: Tahoma;
+          }
+          span:nth-child(1){
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          span{
+              display: block;
+              font-size: 20px;
+              font-weight: 50px;
+              text-align: center;
+              font-family:Tahoma;
+          }
+          span:nth-child(2){
+              line-height: 70px;
+              font-size: 25px;
+              counter-reset: #5d5d5d;
+          }
+          span:nth-child(1):hover{
+            -webkit-transform:scale(1.0);
+            transform:scale(1.3);
+          }
+          #saludo{
+            width: 250px;
+            height: 40px;
+            position: initial;
+
+          }
+          #txtsaludos{
+            color: black;
+            font-size: 2.0em;
+            text-align: center;
+            font-family: fantasy;
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
+            0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
+            0 6px 1px rgba(0,0,0,.1), 0 5px 0 rgba(0,0,0,.1),
+            0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
+            0 5px 10px rgba(0,0,0,.25),
+            0 10px 10px rgba(0,0,0,.2),
+            0 20px 20px rgba(0,0,0,.15);
+          }
+        </style>
+    </head>
+
+    <body onload="startTime(), onload= saludoGeneral()" >
+
+     <header>
+         <h1> Santa María Huazolotitlán</h1>
+        <h2>Lugar de Guajolotes</h2>
+     </header>
+
+    <div class="logo"></div>
+     <!--Inicio de menu-->
+    <div id="menu">
+      <ul>
+        <li class="nivel1"><a href="index.html" class="nivel1">Inicio</a>
+      
+        <li class="nivel1"><a href="historia.html" class="nivel1">Historia</a>
+      
+        <ul>
+          <li><a href="#">Reseña Historica</a></li>
+          <li><a href="#">Personajes Ilustres</a></li>
+          <li><a href="#">Hechos Historicos</a></li>
+        </ul>
+       </li>
+      
+        <li class="nivel1"><a href="acteconomica.html" class="nivel1">Act. Económica</a>
+        <ul>
+          <li><a href="#">Ganaderia</a></li>
+          <li><a href="#">Agricultura</a></li>
+          <li><a href="#">Apicultura</a></li>
+        </ul>
+       </li>
+      
+        <li class="nivel1"><a href="cultura.html" class="nivel1">Cultura</a>
+        <ul>
+          <li><a href="#">Música</a></li>
+          <li><a href="#">Artesanias</a></li>
+          <li><a href="#">Gastronomia</a></li>
+          <li><a href="#">Danzas</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+       </li>
+       
+
+        <li class="nivel1"><a href="ecosistema.html" class="nivel1">Ecosistema</a>
+          <ul>
+            <li><a href="#">Flora</a></li>
+            <li><a href="#">Fauna</a></li>
+          </ul>
+        </li>
+
+        <li class="nivel1"><a href="contactos.html" class="nivel1">Contactos</a>
+          <ul>
+            <li><a href="ubicación.html">Ubicación</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="testimonio.html">Testimonios</a></li>
+            <li><a href="calificacion.html">Aprobación del Sitio Web</a></li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+      <!--fin de menú-->
+
+      <!--Seccion -->
+      <section >
+      <!--<div id="saludo">
+          <div id="txtsaludos">Saludos</div>
+        </div>-->
+        <h1>Datos Curiosos</h1>
+        <h2> Notas del Día </h2>
+
+        <center><img src="images/iglesia2.png"/></center>
+        <h1>Santa María Huazolotitlán</h1>
+              <article>
+                    <p>El Municipio de Santa María Huazolotitlán cuenta con una extensión territorial de 322.78 km², a una altitud media de 290 m.s.n.m. 
+                      Colinda con los municipios de San Andrés Huaxpaltepec, Santiago Jamiltepec y Santiago Pinotepa Nacional. El clima predominante es
+                      cálido con lluvias en verano.
+                      Santa María Huazolotitlán cuenta con una población total de 10,794 habitantes (INEGI 2012), de los cuales 5,517 son mujeres y 5,277 hombres. 
+                      En Santa María Huazolotitlán existe un total de 2,776 viviendas.
+                       </p>
+              </article>
+
+        <h1>Cultura</h1>
+                <article>
+                    <p>Posee con una gran riqueza cultural y tradicional, que no se ha proyectado a nivel estatal y nacional. Por ello es importante que la actual
+                      administración municipal defina acciones que promuevan de manera eficaz el desarrollo cultural del pueblo, con el propósito de fomentar en los
+                      ciudadanos la importancia de preservar las tradiciones, raíces y difundir el patrimonio cultural, tangible e intangible del Municipio. </p>
+                      <center><img src="images/artesano.png" width="400"/></center>
+                </article>
+
+        <h1>Deporte</h1>
+                <article>
+                    <p>Las actividades deportivas son importantes para prevenir la salud del humano y las adicciones. Más relevantes resultan para la niñez y la
+                      juventud, dado que les permite desarrollar todas sus capacidades de manera integral. En tal sentido, el fomento del deporte a través de
+                      infraestructura suficiente y adecuada, torneos e incentivos, debe ser una tarea prioritaria del Municipio.</p><br>
+                    <p>Dentro de las disciplinas que más se practican en la región están el futbol soccer y el basquetbol, para ello se cuenta con instalaciones
+                      de basquetbol en todas las comunidades y espacios para practicar el futbol, sin embargo, la infraestructura deportiva no es suficiente ni 
+                      de la calidad requerida, existe una liga local de futbol soccer y, ocasionalmente cuando son las fiestas patronales, se organizan torneos
+                      relámpagos de las dos disciplinas antes mencionadas.</p>
+                      <center><img src="images/deportes.png" width="400"/></center>
+                </article>
+              
+          <h1>Comercio</h1>
+              <article>
+                  <p>El comercio en el Municipio se dedica fundamentalmente a cubrir la demanda local de bienes y servicios, se compone de tiendas de abarrotes,
+                  refaccionarias, tiendas de ropa y calzado, estéticas, fondas, restaurantes, papelerías, centros de cómputo, etc., que en general son micro y
+                  pequeños negocios familiares. La presencia de cadenas comerciales regionales o nacionales es nula, las más cercanas se encuentran en Santiago
+                  Pinotepa Nacional.</p>
+                  <center><img src="images/tamales.png" width="300"/></center>
+                </article>
+          <h1>Artesanías</h1>
+              <article>
+                <p>En Santa María Huazolotitlán se producen artesanías de madera y textiles. El tallado de madera de copal silvestre realizado por artesanos con
+                  herramientas básicas genera diferentes figuras mitológicas o actuales. Las artesanas textiles hacen bordados multicolores en manta, elaboran
+                  huipiles, servilletas y manteles en telar de cintura. Cabe destacar que no existe una organización formal de artesanos en el Municipio, por 
+                  lo que sería importante considerar esta posibilidad para proyectar todo su potencial.</p><br>
+                <p>Estas artesanías son comercializadas en el mercado de la región a precios bajos que no reditúan lo suficiente a los artesanos. Es importante 
+                  rescatar y proyectar esta acti-vidad a los mercados estatal, nacional e internacional, para convertirla en fuente de ingresos importante para
+                  la población dedicada a ella.</p>
+                  <center><img src="images/buho.png" width="300"/></center>
+              </article>
+        </section>
+     
+        <aside>
+          <div id="saludo">
+            <div id="txtsaludos"></div>
+        </div>
+          <h1>Hora Local</h1>
+          <div class="clockdate">
+            <span id="date"></span>
+          </div>
+          <div id="elemento">
+            <svg widht="300" height="300">
+            <defs>
+              <radialGradient id="gr1" cx="50%" cy="50%" r="50%">
+                <stop offset=0 stop-color="#e1f6ff"/>
+                <stop offset=1 stop-color="#CCD1D1"/>
+              </radialGradient>
+              <radialGradient id="gr2" cx="100%" cy="50%" r="100%">
+                <stop offset=0 stop-color="#000000"/>
+                <stop offset=1 stop-color="#474447"/>
+              </radialGradient> 
+            </defs>
+            
+            <g transform="translate(150,150),rotate(180)">
+            <circle x=0 y=0 r=150 stroke="black" stroke-width=2 fill="black"/>
+            <circle x=0 y=0 r=140 stroke="black" stroke-width=2 fill="url(#gr1)"/>
+            <g transform='rotate(0)'><g transform='translate(0,120),rotate(180)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >12</text></g><g transform='translate(0,-120),rotate(180)'></g></g><g transform='rotate(6)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(12)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(18)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(24)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(30)'><g transform='translate(0,120),rotate(150)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >1</text></g><g transform='translate(0,-120),rotate(210)'></g></g><g transform='rotate(36)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(42)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(48)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(54)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(60)'><g transform='translate(0,120),rotate(120)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >2</text></g><g transform='translate(0,-120),rotate(240)'></g></g><g transform='rotate(66)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(72)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(78)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(84)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(90)'><g transform='translate(0,120),rotate(90)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >3</text></g><g transform='translate(0,-120),rotate(270)'></g></g><g transform='rotate(96)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(102)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(108)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(114)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(120)'><g transform='translate(0,120),rotate(60)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill:black' >4</text></g><g transform='translate(0,-120),rotate(300)'></g></g><g transform='rotate(126)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(132)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(138)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(144)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(150)'><g transform='translate(0,120),rotate(30)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >5</text></g><g transform='translate(0,-120),rotate(330)'></g></g><g transform='rotate(156)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(162)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(168)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(174)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(180)'><g transform='translate(0,120),rotate(0)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >6</text></g><g transform='translate(0,-120),rotate(360)'></g></g><g transform='rotate(186)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(192)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(198)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(204)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(210)'><g transform='translate(0,120),rotate(-30)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >7</text></g><g transform='translate(0,-120),rotate(390)'></g></g><g transform='rotate(216)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(222)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(228)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(234)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(240)'><g transform='translate(0,120),rotate(-60)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >8</text></g><g transform='translate(0,-120),rotate(420)'></g></g><g transform='rotate(246)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(252)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(258)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(264)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(270)'><g transform='translate(0,120),rotate(-90)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >9</text></g><g transform='translate(0,-120),rotate(450)'></g></g><g transform='rotate(276)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(282)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(288)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(294)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(300)'><g transform='translate(0,120),rotate(-120)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >10</text></g><g transform='translate(0,-120),rotate(480)'></g></g><g transform='rotate(306)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(312)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(318)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(324)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(330)'><g transform='translate(0,120),rotate(-150)'><text x=0 y=0 dx=-8 dy=5 style='font: bold 16px arial; fill: black' >11</text></g><g transform='translate(0,-120),rotate(510)'></g></g><g transform='rotate(336)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(342)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(348)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g transform='rotate(354)'><line x1=0 y1=130 x2=0 y2=133 stroke='navy' stroke-width=2/></g><g id="horas" transform='rotate(0)'>
+              <line x1=0 y1=-25 x2=0 y2=90 stroke="black" stroke-width=8>
+              <animateTransform attributeType="XML" attributeName="transform"
+                type="rotate" from="0"  to="360" dur="43200s"
+                begin="0s" fill="freeze" repeatCount="indefinite"/> 
+              </line>
+            </g>
+            
+            
+            <g id="minutos" transform='rotate(0)'>
+              <line x1=0 y1=-25 x2=0 y2=100 stroke="black" stroke-width=4 >
+              <animateTransform attributeType="XML" attributeName="transform"
+                type="rotate" from="0"  to="360" dur="3600s"
+                begin="0s" fill="freeze" repeatCount="indefinite"/> 
+              <line>
+            </g>
+            
+            
+            <g id="segundos" transform='rotate(0)'>
+              <line x1=0 y1=-25 x2=0 y2=110 stroke="black" stroke-width=2>
+              <animateTransform attributeType="XML" attributeName="transform"
+                type="rotate" from="0"  to="360" dur="60s"
+                begin="0s" fill="freeze" repeatCount="indefinite"/> 
+              </line>
+            </g>
+            
+            
+            <circle cx=0 cy=0 r=15 fill="url(#gr2)" stroke="#000000" stroke-width="1"/>
+            </g>
+            </svg>
+            
+            
+            <script type="text/javascript">
+            fecha=new Date(); //obtener la fecha
+            hora=fecha.getHours(); //obtener la hora
+            minuto=fecha.getMinutes(); //obtener el minuto
+            segundo=fecha.getSeconds(); //obtener el segundo    
+            gr_h=(hora+minuto/60)*30; //rotaci&oacute;n saeta hora
+            gr_m=minuto*6; //rotaci&oacute;n saeta minuto
+            gr_s=segundo*6;  //rotaci&oacute;n saeta segundo
+            document.getElementById("horas").setAttribute("transform","rotate("+gr_h+")")
+            document.getElementById("minutos").setAttribute("transform","rotate("+gr_m+")");
+            document.getElementById("segundos").setAttribute("transform","rotate("+gr_s+")");
+
+            function startTime(){
+              //declaro las variables que proporciona los datos hora, minutos, segundos.
+              var today= new Date(),hours= today.getHours(), minutes = today.getMinutes(),
+              date = today.getDate(), day = today.getDay(), month = today.getMonth();
+  
+              //utilizamos operadores ternario nos ayudara a mostrar la hora solo de 1 a 12
+              hours = (hours == 0)? 12 : hours;
+              hours = (hours > 12) ? hours - 12 : hours;
+              //pasaremos las horas y minutos a una función que se creara más adelante
+              hours = checkTime(hours);
+              minutes = checkTime(minutes);
+              //para los dias y meses creamos un arreglo esto porque la funcion nos devuelva los dias y meses en numeros
+              var dia =["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"],
+              mes =["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+              dt = document.getElementById('date').innerHTML = dia[day] + ", " + date + " De " + mes[month];
+            }
+            function checkTime(e){
+              if(e < 10){
+                  e = "0" + e;
+              }
+              return e;
+            }
+            </script>
+
+            <div class="clockdate">
+              <span id="date"></span>
+            </div>
+          </div>
+
+          <h1></h1>
+          <div id="anuncio"> 
+                  <h1> Espacio de Publicidadsds </h1>
+                  <h2> Anunciate Aquí </h2>
+                  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+
+          <h1>salud</h1>
+          <div id="anuncio"> 
+                  <h1> Espacio de Publicidad </h1>
+                  <h2> Anunciate Aquí </h2>
+                  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <h1>Noticias</h1>
+          <div id="anuncio"> 
+                  <h1> Espacio de Publicidad </h1>
+                  <h2> Anunciate Aquí </h2>
+                  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <h1>Noticias</h1>
+          <div id="anuncio"> 
+                  <h1> Espacio de Publicidad </h1>
+                  <h2> Anunciate Aquí </h2>
+                  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </aside>
+  <footer>
+    <a href="#">Derechos Reservados 2021 - Santa María Huazolotitlán</a> 
+  </footer>
+   </body>
+</html>
